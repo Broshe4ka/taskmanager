@@ -1,0 +1,21 @@
+.footer{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;  
+  letter-spacing: -0.06em;
+  padding: 3rem 0;
+  flex-wrap: wrap;
+  bottom: 0;
+}
+
+.footer__github{
+  display: flex;
+  align-items: center;
+}
+
+.github__text{
+  padding-right: 16px;
+  font-size: 32px;
+  font-weight: 500;
+}
