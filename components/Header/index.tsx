@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './header.module.scss'
 
 const Header = () => (
@@ -14,9 +15,11 @@ const Header = () => (
       </div>
 
       <div className={styles.header__auth}>
-        <div className={styles.header__auth__btn}>
+        <a href='#'>
+          <div className={styles.header__auth__btn}>
             Log in
-        </div>
+          </div>
+        </a>
       </div>
 
     </div>
@@ -24,4 +27,4 @@ const Header = () => (
   </>
 );
 
-export default Header;
+export default React.memo(Header);

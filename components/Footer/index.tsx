@@ -1,4 +1,5 @@
 import styles from './footer.module.scss'
+import React from 'react';
 
 const Footer = () => (
   <>
@@ -27,4 +28,4 @@ const Footer = () => (
   </>
 );
 
-export default Footer;
+export default React.memo(Footer);

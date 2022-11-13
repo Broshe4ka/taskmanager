@@ -1,0 +1,60 @@
+.loginform{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.label{
+  font-weight: 500;
+  font-size: 32px;
+  
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: #fafafa;
+  padding: 3rem 10rem;
+  border-radius: 12px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    input{
+      font-size: 18px;
+      font-weight: 400;
+      padding: 4px 88px 4px 16px;
+      line-height: 36px;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0px 0px 4px rgba(173, 173, 173, 0.25), inset 0px 0px 16px #FFFFFF;
+    }
+    button{
+      padding: .5rem;
+      width: 12rem;
+      font-weight: 700;
+      font-size: 28px;
+      background: linear-gradient(278.03deg, #A7FE92 0%, #00C9FF 100%);
+      border: none;
+      border-radius: 16px;
+      color: #FFFFFF;
+      cursor: pointer;
+      transition: .3s;
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+      &:hover{
+        transform: scale(1.03);
+      }
+    }
+}
+
+.quest{
+  text-align: center;
+  font-size: 20px;
+
+  a{
+  color: #00C9FF;
+  text-decoration: underline;
+  }
+
+}
+

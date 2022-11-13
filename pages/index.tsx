@@ -1,18 +1,16 @@
-import Layout from "../components/Layout";
+import Head from 'next/head';
+import React from 'react';
 import styles from '../styles/home.module.scss'
 
 const Home = () =>(
   <>
-    <Layout>
-      <div className={styles.wrapper}>
+      <Head><title>TaskManager - Welcome!</title></Head>
 
-        <div className={styles.main}>
-          Here is body 
+        <div  className={styles.main}>
+          asdasd
         </div>
 
-      </div>
-    </Layout>
   </>
 );
 
-export default Home;
+export default React.memo(Home);
