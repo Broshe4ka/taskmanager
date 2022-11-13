@@ -1,6 +1,7 @@
 import styles from './login.module.scss'
 import Head from 'next/head';
 import React from 'react';
+import Link from 'next/link';
 
 const Login = () =>(
   <>
@@ -15,10 +16,10 @@ const Login = () =>(
         <input type="text" name="surname" id="surname" placeholder='Your surname'/>
         <input type="password" name="pass" id="pass" placeholder='Password'/>
         <div className={styles.quest}>
-          Have no account - <a href="">sign up</a>
+          Have no account - <Link href="/signup">sign up</Link>
         </div>
         <div className={styles.quest}>
-        <a href="">Forgot your password?</a>
+        <Link href="">Forgot your password?</Link>
         </div>
         <button type="submit">Sign up</button>
       </form>

@@ -1,6 +1,7 @@
 import styles from './registration.module.scss'
 import Head from 'next/head';
 import React from 'react';
+import Link from 'next/link';
 
 const Registration = () => (
   <>
@@ -17,7 +18,7 @@ const Registration = () => (
         <input type="password" name="pass" id="pass" placeholder='Password'/>
         <input type="password" name="accept_pass" id="accept_pass" placeholder='Password accept'/>
         <div className={styles.quest}>
-          Have an account - <a href="">sign in</a>
+          Have an account - <Link href="/signin">sign in</Link>
         </div>
         <button type="submit">Sign up</button>
       </form>

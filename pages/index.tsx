@@ -7,7 +7,7 @@ const Home = () =>(
       <Head><title>TaskManager - Welcome!</title></Head>
 
         <div  className={styles.main}>
-          asdasd
+          
         </div>
 
   </>
