@@ -11,7 +11,13 @@
   color: #fff;
 }
 
+input{
+  transition: ease-in-out .3s;
+}
 
+input:focus{
+  outline: none;
+}
 
 a {
   color: inherit;
